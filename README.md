@@ -1,119 +1,159 @@
 # 🚗 Car Price Prediction System
 
-A Machine Learning based web application that predicts the price of a used car based on multiple input features using a trained regression model.
+A Machine Learning based web application that predicts the selling price of a used car using a trained **Random Forest Regressor** model. The application is built with **Flask** and provides a simple, user-friendly interface for real-time price prediction.
 
 ---
 
-## 📌 Project Description
+## 🌐 Live Demo
 
-This project uses **Supervised Machine Learning (Regression)** to predict car prices based on features such as year, present price, kilometers driven, fuel type, seller type, transmission, and number of owners.
-
-The model is deployed using a **Flask web application** with a simple and interactive frontend built using HTML and CSS.
-
----
-
-## ⚙️ Tech Stack
-
-- Python  
-- Pandas  
-- NumPy  
-- Scikit-Learn  
-- Flask  
-- HTML  
-- CSS  
-- Pickle  
+**Live Website:**  
+👉 https://car-price-prediction-system-vvmr.onrender.com/predict
 
 ---
 
-## 📊 Machine Learning Model
+## 📌 Project Overview
 
-- Algorithm: Random Forest Regressor  
-- Problem Type: Regression  
-- Output: Continuous value (Price of car)
+This project predicts the selling price of a used car based on various input features such as:
+
+- Brand
+- Location
+- Year
+- Kilometers Driven
+- Fuel Type
+- Transmission
+- Owner Type
+- Mileage
+- Engine Capacity
+- Power
+- Number of Seats
+
+The trained Machine Learning model processes these inputs and predicts the estimated car price instantly.
+
+---
+
+## ✨ Features
+
+- 🚗 Real-time car price prediction
+- 🤖 Machine Learning based prediction
+- 🌐 Flask web application
+- 📱 Responsive user interface
+- ⚡ Fast prediction results
+- 🎯 Easy-to-use input form
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Flask
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib / Pickle
+- HTML5
+- CSS3
+
+---
+
+## 🧠 Machine Learning Model
+
+- **Algorithm:** Random Forest Regressor
+- **Learning Type:** Supervised Learning (Regression)
+- **Evaluation Metric:** R² Score
+- **Model Serialization:** Pickle (.pkl)
 
 ---
 
 ## 📁 Project Structure
 
+```text
 Car-Price-Prediction-System/
 │
 ├── app.py
 ├── car_price_model.pkl
+├── label_encoders.pkl
 ├── requirements.txt
 ├── README.md
+├── Car_Price_Prediction.ipynb
 │
 ├── templates/
-│     └── index.html
+│   └── index.html
 │
-├── static/
-│     └── style.css
-│
-└── Car_Price_Prediction.ipynb
+└── static/
+    └── style.css
+```
 
 ---
 
-## 🚀 How to Run
+## 🚀 Running the Project Locally
 
-### 1. Clone Repository
-git clone https://github.com/your-username/car-price-prediction-system.git
+### 1. Clone the Repository
 
-### 2. Move to Folder
+```bash
+git clone https://github.com/Chedgeprathm/car-price-prediction-system.git
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
 cd car-price-prediction-system
+```
 
-### 3. Install Requirements
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-### 4. Run Application
+### 4. Run the Flask Application
+
+```bash
 python app.py
+```
 
 ### 5. Open in Browser
+
+```
 http://127.0.0.1:5000
+```
 
 ---
 
-## 📦 Model File Note
+## 🌍 Deployment
 
-The trained model file (`car_price_model.pkl`) is not uploaded to GitHub due to file size limitations.
-
-👉 Download it from Google Drive:  
-https://drive.google.com/file/d/1kw9OgqFkz035MpumBeRiCQSypkSKjfIm/view?usp=drive_link
-
-After downloading, place it inside the main project folder.
+The application is successfully deployed on **Render** and can be accessed through the Live Demo link above.
 
 ---
 
-## 🎯 Features
+## 📊 Future Improvements
 
-- Simple and clean UI  
-- Real-time prediction  
-- Fast and accurate output  
-- Flask based backend  
-- Easy form input system  
+- Improve model accuracy using advanced feature engineering
+- Compare multiple regression algorithms
+- Add user authentication
+- Store prediction history in a database
+- Deploy with a custom domain
 
 ---
 
 ## 📸 Screenshots
 
-<img width="912" height="692" alt="image" src="https://github.com/user-attachments/assets/0949c08a-4a49-4169-9c9a-04ab8fce7bb0" />
+<img width="632" height="696" alt="image" src="https://github.com/user-attachments/assets/0d98bcf9-aba6-468c-91b8-58a8fb470f96" />
 
-
----
-
-## 📌 Future Improvements
-
-- Improve model accuracy using hyperparameter tuning  
-- Add multiple ML models comparison  
-- Deploy on cloud platforms (Render/Heroku/AWS)  
-- Add database for storing predictions  
 
 ---
 
 ## 👨‍💻 Author
 
-Machine Learning Project for academic submission.
+**Prathmesh Chedge**
 
 ---
 
 ## ⭐ Support
 
-If you like this project, consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a **⭐ Star** on GitHub.
+
+---
+
+## 📬 Contact
+
+For any suggestions or feedback, feel free to connect through GitHub.
