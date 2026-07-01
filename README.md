@@ -7,7 +7,7 @@ A Machine Learning based web application that predicts the selling price of a us
 ## 🌐 Live Demo
 
 **Live Website:**  
-👉 https://car-price-prediction-system-vvmr.onrender.com/predict
+👉 https://car-price-prediction-system-vvmr.onrender.com
 
 ---
 
